@@ -39,9 +39,9 @@ html {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 2.6rem 5rem 3.2rem;
   }
   .hero__image {
+    padding: 2.6rem 5rem 3.2rem;
 
     @media screen and (min-width: 1000px) {
         width: 700px;
@@ -50,4 +50,5 @@ html {
   }
   .hero__body {
       text-align: left;
+      padding: 0 3.6rem 5.5rem 3.6rem;
   }
