@@ -45,6 +45,18 @@ p {
   font-weight: 300;
 }
 
+@media screen and (min-width: 700px) {
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  p {
+    font-size: 2rem;
+  }
+}
+
 /* NavBar */
 nav {
   display: -webkit-box;

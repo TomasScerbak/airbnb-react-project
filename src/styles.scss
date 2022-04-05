@@ -33,6 +33,14 @@ html {
   p {
       font-size: 1.3rem;
       font-weight: 300;
+
+      @media screen and (min-width: 700px) {
+        font-size: 1.6rem;
+    }
+
+    @media screen and (min-width: 1000px) {
+        font-size: 2rem;
+    }
   }
   /* NavBar */
   nav {
