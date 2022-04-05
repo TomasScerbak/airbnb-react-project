@@ -3,6 +3,8 @@ import heroImage from '../Images/hero-grid.png'
 
 export default function Hero() {
     return(
-        <img src={heroImage} alt='collection of random images forming grid'/>
+        <div className='hero-wrapper'>
+            <img className='hero-image' src={heroImage} alt='collection of random images forming grid'/>
+        </div>
     )
 }
