@@ -116,4 +116,34 @@ nav {
   text-align: left;
   padding: 0 3.6rem 5.5rem 3.6rem;
 }
+
+@media screen and (min-width: 1000px) {
+  .hero__body {
+    margin-left: 25rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .hero__text {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .hero__text {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero__text {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero__text {
+    width: 60%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

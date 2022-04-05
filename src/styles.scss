@@ -75,4 +75,23 @@ html {
   .hero__body {
       text-align: left;
       padding: 0 3.6rem 5.5rem 3.6rem;
+
+      @media screen and (min-width: 1000px) {
+          margin-left: 25rem;
+      }
+  }
+
+  .hero__text {
+    @media screen and (min-width: 375px) {
+        width: 80%;
+    }
+    @media screen and (min-width: 500px) {
+        width: 70%;
+    }
+    @media screen and (min-width: 700px) {
+        width: 60%;
+    }
+    @media screen and (min-width: 1000px) {
+        width: 60%;
+    }
   }
