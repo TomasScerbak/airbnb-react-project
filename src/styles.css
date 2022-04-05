@@ -84,6 +84,12 @@ nav {
   margin-left: 3rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .logo {
+    margin-left: 5rem;
+  }
+}
+
 /* Hero Image */
 .hero-wrapper {
   display: -webkit-box;
