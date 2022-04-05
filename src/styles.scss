@@ -14,6 +14,10 @@ html {
   *::after {
     box-sizing: border-box;
   }
+  /* Images */
+  img {
+      width: 100%;
+  }
   /* NavBar */
   nav {
       display: flex;
@@ -25,5 +29,20 @@ html {
   }
   /* Logo */
   .logo {
+      width: 8.3rem;
+      height: 2.6rem;
       margin-left: 3rem;
+  }
+  /* Hero Image */
+  .hero-wrapper {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      margin: 2.6rem 5rem 3.2rem;
+  }
+  .hero-image {
+
+    @media screen and (min-width: 600px) {
+        width: 1000px;
+    }
   }
