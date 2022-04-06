@@ -9,9 +9,12 @@ export default function Card() {
                 <img src={cardImage} alt="random person" />
                 <div class="rating">
                     <img className='star' src={starImage} alt="star rating"/>
-                    <span>5.0</span>
-                    <span>(6).USA</span>
+                    <span className='opacity'>5.0</span>
+                    <span className='opacity'>(6).USA</span>
                 </div>
+                <article className='article'>Life lessons with Kathia Zaferes</article>
+                <span className='price'>From $136 </span>
+                <span>/ person</span>
             </div>
         </section>
     )

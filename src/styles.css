@@ -120,7 +120,7 @@ nav {
 
 .hero__body {
   text-align: left;
-  padding: 0 3.6rem 5.5rem 3.6rem;
+  padding: 0 3.6rem 3rem 3.6rem;
 }
 
 @media screen and (min-width: 1000px) {
@@ -157,7 +157,7 @@ nav {
 .card {
   width: 17.6rem;
   height: 23.5rem;
-  padding: 3rem;
+  padding: 0 3rem;
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -184,10 +184,21 @@ nav {
       align-self: center;
 }
 
-/* Star Image */
-.star {
+.card .star {
   width: 1.4rem;
   height: 1.4rem;
   margin-right: 0.5rem;
+}
+
+.card .article {
+  font-size: 1.2rem;
+}
+
+.card .price {
+  font-weight: 800;
+}
+
+.card .opacity {
+  opacity: 0.7;
 }
 /*# sourceMappingURL=styles.css.map */
