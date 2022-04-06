@@ -99,3 +99,14 @@ html {
         width: 60%;
     }
   }
+  /* Card */
+  .card {
+      width: 17.6rem;
+      height: 23.5rem;
+      padding: 3rem;
+
+      @media screen and (min-width: 1000px) {
+          width: 22rem;
+          height: 27rem;
+      }
+  }
