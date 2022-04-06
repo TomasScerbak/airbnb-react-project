@@ -104,9 +104,24 @@ html {
       width: 17.6rem;
       height: 23.5rem;
       padding: 3rem;
+      font-size: 1.2rem;
+      font-weight: 300;
 
       @media screen and (min-width: 1000px) {
           width: 22rem;
           height: 27rem;
       }
+
+      .rating {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-self: center;
+      }
+  }
+  /* Star Image */
+  .star {
+      width: 1.4rem;
+      height: 1.4rem;
+      margin-right: 0.5rem;
   }
