@@ -8,29 +8,33 @@ export default function Contacts() {
             <Card
             img={cardImage}
             city='USA'
+            reviewCount='6'
             rating='5'
-            name='Alda'
+            name='Alda Zlinsky'
             price='157$'
             />
             <Card
             img={cardImage}
             city='Chile'
+            reviewCount='8'
             rating='4'
-            name='Mino'
+            name='Mino Vital'
             price='168$'
             />
             <Card
             img={cardImage}
             city='Germany'
+            reviewCount='1'
             rating='3'
-            name='Peter'
+            name='Peter Pan'
             price='157$'
             />
             <Card
             img={cardImage}
             city='Italy'
+            reviewCount='5'
             rating='3'
-            name='John'
+            name='John Boom'
             price='20$'
             />
         </div>
