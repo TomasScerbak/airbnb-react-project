@@ -37,6 +37,22 @@ export default function Contacts() {
             name='John Boom'
             price='20$'
             />
+            <Card
+            img={cardImage}
+            city='Italy'
+            reviewCount='5'
+            rating='3'
+            name='John Boom'
+            price='20$'
+            />
+            <Card
+            img={cardImage}
+            city='Italy'
+            reviewCount='5'
+            rating='3'
+            name='John Boom'
+            price='20$'
+            />
         </div>
     )
 }
