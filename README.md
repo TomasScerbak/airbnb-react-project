@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/TomasScerbak/react-profile-card.git]
-- Live Site URL: [https://tomasscerbak.github.io/react-profile-card/]
+- Solution URL: [https://github.com/TomasScerbak/airbnb-react-project.git]
+- Live Site URL: [https://tomasscerbak.github.io/airbnb-react-project/]
 
 ## My process
 
