@@ -1,12 +1,14 @@
 import React from 'react'
 import Card from '../Components/Card'
-import cardImage from '../Images/cardimageone.png'
+import cardImageOne from '../Images/cardimageone.png'
+import cardImageTwo from '../Images/wedding-photography.png'
+import cardImageThree from '../Images/mountain-bike.png'
 
 export default function Contacts() {
     return(
         <div className='contacts'>
             <Card
-            img={cardImage}
+            img={cardImageOne}
             city='USA'
             reviewCount='6'
             rating='5'
@@ -14,7 +16,7 @@ export default function Contacts() {
             price='157$'
             />
             <Card
-            img={cardImage}
+            img={cardImageTwo}
             city='Chile'
             reviewCount='8'
             rating='4'
@@ -22,36 +24,12 @@ export default function Contacts() {
             price='168$'
             />
             <Card
-            img={cardImage}
+            img={cardImageThree}
             city='Germany'
             reviewCount='1'
             rating='3'
             name='Peter Pan'
             price='157$'
-            />
-            <Card
-            img={cardImage}
-            city='Italy'
-            reviewCount='5'
-            rating='3'
-            name='John Boom'
-            price='20$'
-            />
-            <Card
-            img={cardImage}
-            city='Italy'
-            reviewCount='5'
-            rating='3'
-            name='John Boom'
-            price='20$'
-            />
-            <Card
-            img={cardImage}
-            city='Italy'
-            reviewCount='5'
-            rating='3'
-            name='John Boom'
-            price='20$'
             />
         </div>
     )
